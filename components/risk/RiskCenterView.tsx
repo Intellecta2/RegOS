@@ -2,12 +2,10 @@
 
 import React from "react";
 import {
-  ShieldAlert,
   TrendingUp,
   TrendingDown,
   Minus,
   AlertTriangle,
-  ArrowUpRight,
   Target,
 } from "lucide-react";
 import { GaugeChart } from "@/components/ui/GaugeChart";

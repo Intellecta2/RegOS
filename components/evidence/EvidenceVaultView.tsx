@@ -12,7 +12,6 @@ import {
   AlertCircle,
   CheckCircle2,
   Shield,
-  Filter,
 } from "lucide-react";
 import { EVIDENCE_DATA } from "@/lib/mock-data";
 

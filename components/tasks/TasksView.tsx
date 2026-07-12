@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Search, Download, Database, Filter } from "lucide-react";
+import { Download, Database, Filter } from "lucide-react";
 import { RiskBadge, StatusBadge } from "@/components/ui/Badges";
 import { MOCK_TASKS } from "@/lib/mock-data";
 
