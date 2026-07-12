@@ -232,8 +232,7 @@ export default function UploadView({ onNavigate }: UploadViewProps) {
             }}
           >
             {PROCESSING_STEPS.map((step, index) => {
-              const isComplete =
-                uploadState === "complete" || index < activeStep;
+              const isComplete = index < activeStep;
               const isActive =
                 uploadState === "processing" && index === activeStep;
               const isPending =
